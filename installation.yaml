@@ -59,7 +59,7 @@
 
     - name: Add katello repo
       yum:
-        name: http://fedorapeople.org/groups/katello/releases/yum/3.2/katello/el7/x86_64/katello-repos-latest.rpm
+        name: http://fedorapeople.org/groups/katello/releases/yum/3.8/katello/el7/x86_64/katello-repos-latest.rpm
         state: present
 
     - name: Add foreman repo
